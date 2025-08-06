@@ -1,0 +1,10 @@
+# Python
+__pycache__
+Process.txt
+ProcessLog.txt
+corpusorales_env
+corpusorales_env/*
+.pycache
+!process/output
+process/output/*
+config.json

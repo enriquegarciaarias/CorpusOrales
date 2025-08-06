@@ -1,0 +1,2339 @@
+{
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/4_GRAN_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.002986999051672
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 623.0726530612245,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/5_GRAN_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.002986999051672
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 623.0726530612245,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/1_GRAN_M11_040.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 13.658849496048948
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 625.7110204081632,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/1_GRAN_M21_046.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.546989264715412
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 602.9583673469388,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-2/2_CADI_M21_016.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.18472621528495
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 612.922970521542,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-2/3_BARC_M21_087.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.178496496722833
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 589.6478684807256,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/11_LASP_M31_069.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 10.170114621982602
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 677.6543990929705,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/12_LASP_M31_069.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 10.170114621982602
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 677.6543990929705,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/1_GRAN_H21_043.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.952083976066485
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 673.28,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/2_GRAN_H21_043.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.952083976066485
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 673.28,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/3_GRAN_H21_043.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.952083976066485
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 673.28,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/3_GRAN_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.002986999051672
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 623.0726530612245,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/6_GRAN_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.002986999051672
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 623.0726530612245,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/7_GRAN_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.002986999051672
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 623.0726530612245,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/2_GRAN_M21_046.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.546989264715412
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 602.9583673469388,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-2/1_GRAN_H21_043.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.952083976066485
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 673.28,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-3/2_GRAN_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.002986999051672
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 623.0726530612245,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-1/1_GRAN_M11_040.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 13.658849496048948
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 625.7110204081632,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-1/2_GRAN_M11_040.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 13.658849496048948
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 625.7110204081632,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-2/1_MADR_M21_024.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 12.737611989354743
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 673.6576643990929,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/1_MADR_M31_040.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 14.538109535273879
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 603.6495011337869,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/2_MADR_M31_040.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 14.538109535273879
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 603.6495011337869,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/3_SANT_M31_054.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 14.682192688151828
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 600.0968480725624,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/4_SEVI_M31_021.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.924247243175639
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 674.0592290249433,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/5_SEVI_M31_021.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.924247243175639
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 674.0592290249433,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/6_VALE_M31_051.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 3.7314617730372572
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 606.9931746031746,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/7_LASP_M31_069.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 10.170114621982602
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 677.6543990929705,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/8_LASP_M31_069.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 10.170114621982602
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 677.6543990929705,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/9_LASP_M31_069.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 10.170114621982602
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 677.6543990929705,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/10_LASP_M31_069.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 10.170114621982602
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 677.6543990929705,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-3/13_LASP_M31_069.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 10.170114621982602
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 677.6543990929705,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/1_MADR_H11_002.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.957576369206109
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 623.8421541950113,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/2_SEVI_H11_002.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.359322339927797
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 634.0299092970522,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/3_SEVI_H11_002.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.359322339927797
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 634.0299092970522,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/4_VALE_H11_065.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.138901643414206
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 605.112358276644,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/5_VALE_H11_065.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.138901643414206
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 605.112358276644,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/6_VALE_H11_065.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.138901643414206
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 605.112358276644,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/7_LASP_H11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.890246860202728
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 606.8625623582766,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/8_LASP_H11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.890246860202728
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 606.8625623582766,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/9_LASP_H11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.890246860202728
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 606.8625623582766,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/10_LASP_H11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.890246860202728
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 606.8625623582766,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/11_LASP_H11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.890246860202728
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 606.8625623582766,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/12_CADI_H11_004.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.571261199705436
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 603.5972562358277,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/13_CADI_H11_004.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.571261199705436
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 603.5972562358277,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/14_XIXO_H11_054.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 13.702104315782499
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 597.171133786848,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-1/15_XIXO_H11_054.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 13.702104315782499
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 597.171133786848,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/4_MALA_H21_734.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.497684704685298
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 597.2233786848072,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/5_MALA_H21_734.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.497684704685298
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 597.2233786848072,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/6_MALA_H21_734.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.497684704685298
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 597.2233786848072,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/7_MALA_H21_734.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.497684704685298
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 597.2233786848072,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/8_MALA_H21_734.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.497684704685298
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 597.2233786848072,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/9_MALA_H21_734.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.497684704685298
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 597.2233786848072,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/10_MALA_H21_734.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.497684704685298
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 597.2233786848072,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/11_SANT_H21_045.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.6775115754062
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 660.0739909297052,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-2/12_LASP_H21_057.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.486360755919669
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.2250113378685,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/1_ALCA_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 6.692744337900798
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 653.0470521541951,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/2_ALCA_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 6.692744337900798
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 653.0470521541951,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/8_MADR_H31_037.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.532205113924595
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 661.9025623582767,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/9_MALA_H31_108.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 6.708732617717943
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 630.3727664399092,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/10_MALA_H31_108.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 6.708732617717943
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 630.3727664399092,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/11_MALA_H31_108.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 6.708732617717943
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 630.3727664399092,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/12_SCOM_H31_042.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.984510307520493
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.6168480725623,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/13_SCOM_H31_042.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.984510307520493
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.6168480725623,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/14_SCOM_H31_042.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.984510307520493
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.6168480725623,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/15_SCOM_H31_042.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.984510307520493
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.6168480725623,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/16_SCOM_H31_042.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.984510307520493
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.6168480725623,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/17_CADI_H31_001.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.913767127136243
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.3033786848073,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/18_CADI_H31_001.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.913767127136243
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.3033786848073,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/19_CADI_H31_001.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.913767127136243
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.3033786848073,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/20_CADI_H31_001.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.913767127136243
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.3033786848073,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/21_XIXO_H31_001.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.946397278518031
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 698.6568480725624,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/22_PALM_H31_014.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.817419368931418
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 587.657875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/23_PALM_H31_014.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.817419368931418
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 587.657875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/24_PALM_H31_014.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.817419368931418
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 587.657875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/25_PALM_H31_014.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.817419368931418
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 587.657875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/26_PALM_H31_014.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.817419368931418
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 587.657875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-H-3/27_PALM_H31_014.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.817419368931418
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 587.657875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-3/1_ALCA_M31_054.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.253973343390323
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 624.5474603174603,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-3/2_ALCA_M31_054.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.253973343390323
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 624.5474603174603,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-3/3_ALCA_M31_054.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.253973343390323
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 624.5474603174603,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-3/4_ALCA_M31_054.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.253973343390323
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 624.5474603174603,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-3/5_SANT_M31_054.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 14.682192688151828
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 600.0968480725624,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/1_ALCA_H11_037.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 5.481259631839582
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 613.0274603174603,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/2_ALCA_H11_037.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 5.481259631839582
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 613.0274603174603,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/3_MALA_H11_114.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.75771339117679
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 634.291133786848,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/4_MALA_H11_114.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.75771339117679
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 634.291133786848,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/5_MALA_H11_114.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.75771339117679
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 634.291133786848,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/6_MALA_H11_114.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.75771339117679
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 634.291133786848,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/7_MALA_H11_114.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.75771339117679
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 634.291133786848,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/8_VALE_H11_065.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.138901643414206
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 605.112358276644,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/9_LASP_H11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.890246860202728
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 606.8625623582766,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-1/10_LASP_H11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.890246860202728
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 606.8625623582766,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/2_SCOM_M11_040.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.120298782946573
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 605.7654195011338,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/3_SCOM_M11_040.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.120298782946573
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 605.7654195011338,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/4_SCOM_M11_040.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.120298782946573
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 605.7654195011338,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/5_SCOM_M11_040.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.120298782946573
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 605.7654195011338,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/6_SEVI_M11_014.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 13.336805180135796
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 678.0820861678004,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/7_VALE_M11_070.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 12.417554920329064
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 678.9605215419501,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/8_VALE_M11_070.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 12.417554920329064
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 678.9605215419501,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/9_LASP_M11_053.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.469144224565808
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 602.0821541950113,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/10_PALM_M11_004.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 13.124652905696223
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 589.097875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/11_PALM_M11_004.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 13.124652905696223
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 589.097875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-1/12_PALM_M11_004.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 13.124652905696223
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 589.097875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/3_MALA_M21_008.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.944978260501774
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 622.6666439909297,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/4_MALA_M21_008.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 8.944978260501774
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 622.6666439909297,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/5_SANT_M21_046.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 20.375296990852753
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 610.4152154195011,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/6_SEVI_M21_018.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 12.84670644524898
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 626.0886848072562,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/7_XIXO_M21_034.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 18.604750933984516
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 625.7752154195011,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/8_PALM_M21_011.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.15104681202077
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 2473.481875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/9_PALM_M21_011.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.15104681202077
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 2473.481875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/bar-M-2/10_PALM_M21_011.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.15104681202077
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 2473.481875,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-2/2_VALE_H21_057.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.505168114488251
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 613.105827664399,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-2/3_CADI_H21_007.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.391593159539395
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 599.0519501133787,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-2/4_PALM_H21_007.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 11.070901656318794
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 572.0369375,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-3/1_ALCA_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 6.692744337900798
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 653.0470521541951,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-3/3_MADR_H31_037.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.532205113924595
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 661.9025623582767,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-3/4_SANT_H31_051.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 10.678356637584127
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 600.4103174603175,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-3/5_SCOM_H31_042.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.984510307520493
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 611.6168480725623,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-H-3/6_VALE_H31_050.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 7.544774816857873
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 628.3874603174603,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-1/3_XIXO_M11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.959827658028027
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 598.1899092970522,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-1/4_XIXO_M11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.959827658028027
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 598.1899092970522,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-1/5_XIXO_M11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.959827658028027
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 598.1899092970522,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    },
+    "/home/vant/Documentos/proyectos/HumanidadesDigitales/CorpusOrales/process/output/iglesia-M-1/6_XIXO_M11_049.mp3": {
+        "prosodia": {
+            "jitter_local": null,
+            "shimmer_local": null,
+            "hnr": 9.959827658028027
+        },
+        "mean_pitch": NaN,
+        "mean_energy": NaN,
+        "duration": 598.1899092970522,
+        "speech_rate": NaN,
+        "formants": [
+            null,
+            null,
+            null
+        ],
+        "spectral_centroid": null,
+        "num_pauses": null,
+        "mean_pause_duration": null
+    }
+}
