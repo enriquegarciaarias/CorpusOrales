@@ -8,3 +8,5 @@ corpusorales_env/*
 !process/output
 process/output/*
 config.json
+.idea
+.idea/*
