@@ -1,5 +1,9 @@
 from sources.common.common import logger, log_
 from sources.common.utils import grabaJson, leeJson, dbTimestamp
+from sources.classTrimmer import Trimmer
+from sources.classMeasureShimmer import MeasureShimmer
+from sources.classFormants import MeasureFormant
+from sources.classSpectrum import MeasureSpectralShape
 import parselmouth
 from parselmouth.praat import call
 import numpy as np
@@ -33,7 +37,8 @@ def convert_to_wav(audio_path):
 def extraerProsodia(snd, point_process, min_pitch, max_pitch):
     """Extrae características prosódicas avanzadas como jitter, shimmer y HNR."""
     print(f"Tipo de point_process: {type(point_process)}")
-    features = {"jitter_local": None, "shimmer_local": None, "hnr": None}
+    features = {"jitter_local": None, "shimmer": {}, "hnr": None}
+    """
     if not hasattr(snd, "get_total_duration"):
         log_("info", logger, "point_process no es un PointProcess válido, omito get_start_time")
         start_time, end_time = 0, 0
@@ -41,28 +46,49 @@ def extraerProsodia(snd, point_process, min_pitch, max_pitch):
         start_time = 0
         end_time = snd.get_total_duration()
         #start_time = point_process.get_start_time()
-        #end_time = point_process.get_end_time()
+        #end_time = point_process.get_end_time()    
+    """
+    num_points = call(point_process, "Get number of points")
+    if num_points > 0:
+        start_time = call(point_process, "Get time from index", 1)
+        end_time = call(point_process, "Get time from index", num_points)
+    else:
+        log_("warning", logger, "PointProcess vacío, usando todo el rango de snd")
+        start_time = 0
+        end_time = snd.get_total_duration()
 
 
     min_period = 1 / max_pitch
     try:
-
-
         jitter_local = call(point_process, "Get jitter (local)", start_time, end_time, min_period, 1.3, 1.6)
     except Exception as e:
         log_("error", logger, f"Error getting jitter: {str(e)}")
         jitter_local = None
-    try:
-        intensity = snd.to_intensity(minimum_pitch=min_pitch)
-        shimmer_local = call([snd, intensity, point_process], "Get shimmer (local)", start_time, end_time, min_period, 1.3,
-                             1.6, 1.6)
-    except Exception as e:
 
+
+    try:
+        signal = snd.values  # numpy array con la señal
+        sampling_rate = snd.sampling_frequency
+
+        measure = MeasureShimmer(
+            voice=(signal, sampling_rate),
+            start_time=start_time,
+            end_time=end_time,
+            shortest_period=min_period,
+            longest_period=0.02,  # o tu valor deseado
+            maximum_period_factor=1.3,
+            maximum_amplitude=1.6,
+            measure_pca=False  # solo quieres el shimmer local
+        )
+
+        shimmer = measure.process()
+
+    except Exception as e:
         log_("error", logger, f"Error getting shimmer: {str(e)}")
-        shimmer_local = None
+        shimmer = None
 
     features["jitter_local"] = jitter_local
-    features["shimmer_local"] = shimmer_local
+    features["shimmer"] = shimmer
 
 
 
@@ -152,6 +178,7 @@ def tiene_silencios(snd, threshold_db=-25.0, min_duracion=0.3):
         return True
 
     return False
+
 
 def extraePitch(audioFile, include_advanced=False, threshold_silencio_db=-30.0, min_duracion_pausa=0.2):
     min_duracion_pausa = float(min_duracion_pausa)
@@ -250,32 +277,84 @@ def extraePitch(audioFile, include_advanced=False, threshold_silencio_db=-30.0, 
     min_duracion_pausa = 0.3
     min_pitch_safe_for_trim = max(75.0, min_pitch_safe)
 
-    if tiene_silencios(snd, threshold_db=threshold_silencio_db, min_duracion=min_duracion_pausa):
+    modo_trim = 1  # ← Cambia aquí para probar
+
+    if modo_trim == 3:
+        # Ajuste de sensibilidad: bajar umbral y/o duración mínima
+        threshold_silencio_db_adj = threshold_silencio_db + 3  # menos estricto
+        min_duracion_pausa_adj = max(min_duracion_pausa * 0.5, 0.05)  # aceptar pausas más cortas
+    else:
+        threshold_silencio_db_adj = threshold_silencio_db
+        min_duracion_pausa_adj = min_duracion_pausa
+
+    snd_trimmed = snd
+    silencios = False
+    if tiene_silencios(snd, threshold_db=threshold_silencio_db_adj, min_duracion=min_duracion_pausa_adj):
+        silencios = True
         try:
             args_trim = (
                 float(min_pitch_safe_for_trim),
                 0.1,
-                float(threshold_silencio_db),
-                float(min_duracion_pausa),
+                float(threshold_silencio_db_adj),
+                float(min_duracion_pausa_adj),
                 0.1,
                 float(min_pitch_safe_for_trim),
                 400.0,
-                "yes",  # Save trimming info as TextGrid
-                "Sound"  # Output type
+                "yes",
+                "Sound"
             )
             snd_trimmed = call(snd, "Trim silences", *args_trim)
-            log_("info", logger, f"Se ha extraido snd_trimmed: {snd_trimmed}")
+            log_("info", logger, f"Se ha extraído snd_trimmed: {snd_trimmed}")
 
         except parselmouth.PraatError as e:
             log_("warning", logger, f"Failed to trim silences: {str(e)}")
-            print("snd duration:", snd.get_total_duration())
-            print("snd sampling rate:", snd.sampling_frequency)
-            print("min_pitch_safe:", min_pitch_safe, type(min_pitch_safe))
-            print("args_trim:", args_trim)
-            snd_trimmed = snd
+
+            safer_args = (
+                75.0,
+                0.1,
+                float(threshold_silencio_db_adj),
+                float(min_duracion_pausa_adj),
+                0.1,
+                75.0,
+                500.0,
+                "yes",
+                "Sound"
+            )
+            try:
+                snd_trimmed = call(snd, "Trim silences", *safer_args)
+            except parselmouth.PraatError:
+                log_("warning", logger, "Second trim attempt failed, using manual cut...")
+                start = snd.get_total_duration() * 0.25
+                end = snd.get_total_duration() * 0.75
+                try:
+                    snd_trimmed = call(snd, "Extract part", start, end, "rectangular", 1.0, "yes")
+                except parselmouth.PraatError:
+                    log_("warning", logger, "Third trim attempt failed, using snd")
+                    snd_trimmed = snd
     else:
-        log_("info", logger, "No se detectaron silencios significativos, se omite Trim silences.")
-        snd_trimmed = snd
+        log_("info", logger, "No se detectaron silencios significativos.")
+        try:
+            if modo_trim == 1:
+                # Forzar recorte mínimo (10% inicio y fin)
+                dur = snd.get_total_duration()
+                start = dur * 0.05
+                end = dur * 0.95
+                snd_trimmed = call(snd, "Extract part", start, end, "rectangular", 1.0, "yes")
+                log_("info", logger, "snd_trimmed con modo 1.")
+
+            elif modo_trim == 2:
+                # Mantener original pero filtrado
+                snd_trimmed = call(snd, "Filter (pass Hann band)", 50, 5000, 100)
+                log_("info", logger, "snd_trimmed con modo 2.")
+
+            else:
+                # Modo normal: usar snd tal cual
+                log_("info", logger, "snd_trimmed con snd")
+                snd_trimmed = snd
+        except parselmouth.PraatError:
+            log_("warning", logger, "Second trim attempt failed, using snd")
+            snd_trimmed = snd
+
 
 
     min_pitch_safe = safe_pitch(min_pitch)
@@ -288,9 +367,11 @@ def extraePitch(audioFile, include_advanced=False, threshold_silencio_db=-30.0, 
     print(f"min_pitch_safe: {min_pitch_safe}, max_pitch_safe: {max_pitch_safe}")
 
     point_process = call(snd_trimmed, "To PointProcess (periodic, cc)", min_pitch_safe, max_pitch_safe)
-    print(f"Tipo de point_process2: {type(point_process)}")
 
+    trimmer = Trimmer(trim_silences=silencios, silence_ratio=10.0, trim_sound=True, percent_trim=10.0)
+    snd_trimmed = trimmer.process(snd)
 
+    # Ahora snd_trimmed está listo para:
     features['prosodia'] = extraerProsodia(snd_trimmed, point_process, min_pitch_safe, max_pitch_safe)
 
     # Análisis de pitch
@@ -335,37 +416,54 @@ def extraePitch(audioFile, include_advanced=False, threshold_silencio_db=-30.0, 
             log_("warning", logger, f"No voiced periods detected for {audioFile}")
 
     # Características avanzadas
-    features['formants'] = [None, None, None]
-    features['spectral_centroid'] = None
-    if include_advanced:
+    features['formants'] = {'mean': 0, 'median': 0}
+    features['spectral'] = {}
+    duracion = snd_trimmed.get_total_duration()
+
+    if include_advanced and duracion > 0.05:
         try:
-            formant = snd_trimmed.to_formant_burg(time_step=0.005, maximum_formant=5500, window_length=0.025, pre_emphasis_from=50)
-            formants = [call(formant, "Get mean", 1, 0, i, "Hertz") for i in range(1, 4)]
-            features['formants'] = [float(zscore([f])[0]) if f is not None and f > 0 else None for f in formants]
+            args = {
+                "voice": (snd_trimmed.values.flatten(), snd_trimmed.sampling_frequency),  # Mono: extraigo canal 0 y freq
+                "time step": 0.005,
+                "max number of formants": 5.5,  # Puedes ajustar si quieres
+                "window length(s)": 0.025,
+                "pre emphasis from": 50,
+                "max_formant (To Formant Burg...)": 5500,
+                "method": "To Formant Burg...",  # O "Formant Path"
+            }
+            mf = MeasureFormant(args)
+            results = mf.process()
+
+            # Extraigo las medias de los primeros 3 formantes
+            formant_means = [results[f"F{i} Mean"] for i in range(1, 4)]
+            formant_medians = [results[f"F{i} Median"] for i in range(1, 4)]
+
+            def filter_formants(values):
+                return [float(v) if v is not None and v > 0 else None for v in values]
+
+            features['formants'] = {
+                'mean': filter_formants(formant_means),
+                'median': filter_formants(formant_medians)
+            }
+
         except Exception as e:
             log_("error", logger, f"Error al calcular formantes: {str(e)}")
 
         try:
-            spectrum = snd_trimmed.to_spectrum()
-            spectral_centroid = call(spectrum, "Get centre of gravity", 0, 5000)
-            features['spectral_centroid'] = float(spectral_centroid) if spectral_centroid and not np.isnan(
-                spectral_centroid) else None
-            """
-           #total_power = call(spectrum, "Get total power in band", 0, max_pitch)  # Try band-limited power
-            total_power = call(spectrum, "Get total power in band", 0, 5000)
-            if total_power is not None and total_power > 0:
-                #spectral_centroid = call(spectrum, "Get centre of gravity", 0, max_pitch)
-                spectral_centroid = call(spectrum, "Get centre of gravity", 0, 5000)
-                features['spectral_centroid'] = float(spectral_centroid) if spectral_centroid and not np.isnan(
-                    spectral_centroid) else None
-                #features['spectral_centroid'] = float(zscore([spectral_centroid])[0]) if spectral_centroid else None
-            else:
-                log_("warning", logger, f"Total power invalid or zero: {total_power}")            
-            """
+            args = {
+                "voice": (snd_trimmed.values.flatten(), snd_trimmed.sampling_frequency),
+                "Low band floor (Hz)": 0.0,
+                "Low band ceiling (Hz)": 5000.0,
+                "High band floor (Hz)": 0.0,  # Opcional, ajusta si quieres
+                "High band ceiling (Hz)": 5000.0,  # Opcional, ajusta si quieres
+                "Power": 1,  # Para obtener el centro de gravedad igual que Get centre of gravity
+            }
 
+            ms = MeasureSpectralShape(args)
+            features['spectral'] = ms.process()
 
         except Exception as e:
-            log_("error", logger, f"Error al calcular spectral_centroid: {str(e)}")
+            log_("error", logger, f"Error al calcular spectral: {str(e)}")
 
     # Cálculo de pausas
     features['num_pauses'] = 0
@@ -380,7 +478,18 @@ def extraePitch(audioFile, include_advanced=False, threshold_silencio_db=-30.0, 
                     duration = call(silences, "Get end point", 1, i) - call(silences, "Get start point", 1, i)
                     if duration > 0:
                         pause_durations.append(duration)
-                features['mean_pause_duration'] = float(zscore([np.mean(pause_durations)])[0]) if pause_durations else np.nan
+                if pause_durations:
+                    mean_pause = np.mean(pause_durations)
+                    # Solo zscore si tienes más de 1 pausa
+                    if len(pause_durations) > 1:
+                        mean_pause_z = float(zscore(pause_durations).mean())
+                    else:
+                        mean_pause_z = mean_pause  # Sin normalizar
+                    features['mean_pause_duration'] = mean_pause_z
+                else:
+                    features['mean_pause_duration'] = np.nan
+            else:
+                features['mean_pause_duration'] = np.nan
         except Exception as e:
             log_("error", logger, f"Error al calcular pausas: {str(e)}")
 
