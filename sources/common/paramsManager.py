@@ -19,7 +19,7 @@ def manageArgs():
     @Result: Returns parsed arguments as a Namespace object.
     """
     parser = argparse.ArgumentParser(description="Main process for Corpus handling.")
-    parser.add_argument('--proc', type=str, help="Process type: C (Crawl), A (Audio), R (Results), ", default="A")
+    parser.add_argument('--proc', type=str, help="Process type: C (Crawl), A (Audio), R (Results), ", default="R")
     args = parser.parse_args()
 
     return args

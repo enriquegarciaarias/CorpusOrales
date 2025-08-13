@@ -3,6 +3,8 @@ import json
 import time
 import os
 from os.path import isdir
+import tempfile
+from pydub import AudioSegment
 
 def mkdir(dir_path):
     """
@@ -123,3 +125,26 @@ def get_next_combination(resultsPath):
             return comb
 
     return None  # All combinations are used
+
+def extract_sexo_from_path(audioFile):
+    """Extrae el sexo del locutor a partir de la ruta del archivo."""
+    directory = os.path.dirname(audioFile)
+    last_dir = os.path.basename(directory)
+    parts = last_dir.split('-')
+    return parts[1] if len(parts) >= 2 else None
+
+def convert_to_wav(audio_path):
+    """Convierte un archivo MP3 a WAV si es necesario."""
+    if audio_path.lower().endswith('.mp3'):
+        try:
+            with tempfile.NamedTemporaryFile(suffix='.wav', delete=False) as temp_wav:
+                temp_path = temp_wav.name
+            audio = AudioSegment.from_file(audio_path, format="mp3")
+            audio = audio.set_channels(1)  # Convertir a mono
+            audio.export(temp_path, format="wav", parameters=["-ar", "44100"])
+            print(f"Converted {audio_path} to {temp_path}")
+            return temp_path
+        except Exception as e:
+            log_("error", logger, f"Error converting {audio_path} to WAV: {str(e)}")
+            return None
+    return audio_path

@@ -7,7 +7,7 @@ from sources.common.common import processControl, logger, log_
 from sources.common.paramsManager import getConfigs
 from sources.preseeaCorpus import processCrawler
 from sources.voiceProcess import processAudio
-from sources.analysis import tablasFrecuencia
+from sources.analisis.analysis import processAnalisis
 import os
 
 
@@ -19,7 +19,7 @@ def mainProcess():
     elif processControl.args.proc == "A":
         processAudio(resultsPath)
     elif processControl.args.proc == "R":
-        tablasFrecuencia(resultsPath)
+        processAnalisis(resultsPath)
 
     return True
 
