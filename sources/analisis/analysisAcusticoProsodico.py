@@ -177,7 +177,7 @@ def basicos(path):
     print(table.to_string())
 
 
-def processProsodicStats(resultsPath):
+def OLDprocessProsodicStats(resultsPath):
     # Cargar datos del JSON
 
     data = leeJson(resultsPath)
@@ -239,6 +239,108 @@ def processProsodicStats(resultsPath):
 
     outputPath = os.path.join(processControl.env['outputDir'], "acusticoProsodico.csv")
     # Guardar resultados
+
     stats_df.to_csv(outputPath, index=False, encoding='utf-8')
+    log_("info", logger, f"Estadísticas guardadas en: {outputPath}")
+    return outputPath
+
+
+def _truncate_series(s: pd.Series, decimals: int = 3) -> pd.Series:
+    """Trunca (no redondea) a 'decimals' decimales."""
+    factor = 10 ** decimals
+    return np.trunc(s.astype(float) * factor) / factor
+
+def processProsodicStats(resultsPath, decimals=3, rounding='round', locale='es'):
+    """
+    rounding: 'round' (redondeo) | 'truncate' (truncado)
+    locale:   'es' -> usa sep=';' y decimal=',' en el CSV
+              'en' -> usa sep=',' y decimal='.' en el CSV
+    """
+    data = leeJson(resultsPath)
+    if not data:
+        return None
+
+    registros = []
+    for item in data:
+        q = item.get('query', {})
+        lemma = q.get("lemma")
+        sexo = q.get("sexo")
+        edad = q.get("edad")
+
+        analisis = item.get("analysis", {})
+        for analysis in analisis:
+            values = analysis.get("result", {})
+            registros.append({
+                "lemma": lemma,
+                "sexo": sexo,
+                "edad": edad,
+                "mean_pitch": values.get("mean_pitch"),
+                "hnr": values.get("prosodia", {}).get("hnr"),
+                "mean_energy": values.get("mean_energy"),
+                "duration": values.get("duration"),
+                "speech_rate": values.get("speech_rate"),
+            })
+
+    df = pd.DataFrame(registros)
+
+    # Asegurar numéricos (por si llegan como strings)
+    num_cols = ["mean_pitch", "hnr", "mean_energy", "duration", "speech_rate"]
+    for c in num_cols:
+        df[c] = pd.to_numeric(df[c], errors="coerce")
+
+    # Eliminar nulos
+    df = df.dropna(subset=num_cols)
+
+    # Agrupar
+    stats_df = df.groupby(["lemma", "sexo", "edad"]).agg(
+        mean_mean_pitch=('mean_pitch', 'mean'),
+        median_mean_pitch=('mean_pitch', 'median'),
+        std_mean_pitch=('mean_pitch', lambda x: x.std(ddof=0)),
+
+        mean_hnr=('hnr', 'mean'),
+        median_hnr=('hnr', 'median'),
+        std_hnr=('hnr', lambda x: x.std(ddof=0)),
+
+        mean_mean_energy=('mean_energy', 'mean'),
+        median_mean_energy=('mean_energy', 'median'),
+        std_mean_energy=('mean_energy', lambda x: x.std(ddof=0)),
+
+        mean_duration=('duration', 'mean'),
+        median_duration=('duration', 'median'),
+        std_duration=('duration', lambda x: x.std(ddof=0)),
+
+        mean_speech_rate=('speech_rate', 'mean'),
+        median_speech_rate=('speech_rate', 'median'),
+        std_speech_rate=('speech_rate', lambda x: x.std(ddof=0))
+    ).reset_index()
+
+    # Garantizar tipo float en todas las métricas
+    metric_cols = [c for c in stats_df.columns if c not in ("lemma", "sexo", "edad")]
+    stats_df[metric_cols] = stats_df[metric_cols].apply(pd.to_numeric, errors="coerce")
+
+    # Redondeo o truncado a 'decimals'
+    if rounding == 'truncate':
+        stats_df[metric_cols] = stats_df[metric_cols].apply(_truncate_series, decimals=decimals)
+    else:
+        stats_df[metric_cols] = stats_df[metric_cols].round(decimals)
+
+    # Exportación con configuración de locale para evitar el "×1000"
+    if locale == 'es':
+        sep = ';'
+        dec = ','
+    else:
+        sep = ','
+        dec = '.'
+
+    outputPath = os.path.join(processControl.env['outputDir'], "acusticoProsodico.csv")
+    stats_df.to_csv(
+        outputPath,
+        index=False,
+        sep=sep,
+        decimal=dec,
+        float_format=f'%.{decimals}f',  # asegura 3 decimales en salida
+        encoding='utf-8'
+    )
+
     log_("info", logger, f"Estadísticas guardadas en: {outputPath}")
     return outputPath

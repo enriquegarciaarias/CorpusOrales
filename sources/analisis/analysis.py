@@ -1,7 +1,7 @@
 from sources.common.common import processControl, logger, log_
 from sources.common.utils import leeJson
 from sources.analisis.analysisAcusticoProsodico import processProsodicStats
-from sources.analisis.analysisGraph import visualizeProsodicComparisons
+from sources.analisis.analysisGraph import visualizeProsodicComparisons, analyze_correlations, analyze_selected_features_correlation
 
 import pandas as pd
 import os
@@ -187,7 +187,9 @@ def processAnalisis(resultsPath, lemmas_objetivo=None):
     df_indices = calcular_indices_genero(resultados_preparados)
     visualizar_indices_genero(df_indices, top_n=15)
     filePath = processProsodicStats(resultsPath)
-    visualizeProsodicComparisons(filePath)
+    #visualizeProsodicComparisons(filePath)
+    analyze_correlations(filePath)
+    analyze_selected_features_correlation(filePath)
     return True
 
 
