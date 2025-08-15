@@ -2,6 +2,7 @@ from sources.common.common import processControl, logger, log_
 from sources.common.utils import leeJson
 from sources.analisis.analysisAcusticoProsodico import processProsodicStats
 from sources.analisis.analysisGraph import visualizeProsodicComparisons, analyze_correlations, analyze_selected_features_correlation
+from sources.analisis.AnalysisANOVA import peachSpeechAnova
 
 import pandas as pd
 import os
@@ -190,6 +191,9 @@ def processAnalisis(resultsPath, lemmas_objetivo=None):
     #visualizeProsodicComparisons(filePath)
     analyze_correlations(filePath)
     analyze_selected_features_correlation(filePath)
+
+    peachSpeechAnova(filePath)
+
     return True
 
 
